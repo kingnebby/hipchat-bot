@@ -1,10 +1,11 @@
 {
-  "name": "hipchat-bot",
+  "name": "hipchat-botty",
   "version": "1.0.0",
-  "description": "A pluggable node hipchat bot.",
+  "description": "A pluggable hipchat bot.",
   "main": "lib/createBot.js",
   "directories": {
-    "example": "examples"
+    "example": "examples",
+    "lib": "lib"
   },
   "dependencies": {
     "chuck-norris-api": "^1.0.6",
@@ -20,6 +21,13 @@
     "nodejs",
     "node"
   ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kingnebby/hipchat-bot.git"
+  },
   "author": "Dan Villa <dvilla@collineargroup.com>",
   "license": "MIT"
 }

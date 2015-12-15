@@ -3,7 +3,7 @@ A lightweight pluggable node hipchat bot.
 
 Based heavily on [wobot](http://github.com/cjoudrey/wobot)
 
-
+Github: [hipchat-bot](https://github.com/kingnebby/hipchat-bot)
 
 # Usage
 
@@ -12,7 +12,7 @@ If you run into errors you may need to install
  - libexpat1-dev: `apt-get install libexpat1-dev`
  - libicu-dev: `apt-get install libicu-dev`
 
-Code Example
+##Example
 
 ```javascript
 var Bot = require('hipchat-bot');
