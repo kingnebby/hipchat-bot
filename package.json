@@ -1,0 +1,25 @@
+{
+  "name": "hipchat-bot",
+  "version": "1.0.0",
+  "description": "A pluggable node hipchat bot.",
+  "main": "lib/createBot.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "chuck-norris-api": "^1.0.6",
+    "node-xmpp-client": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hipchat",
+    "bot",
+    "nodejs",
+    "node"
+  ],
+  "author": "Dan Villa <dvilla@collineargroup.com>",
+  "license": "MIT"
+}
