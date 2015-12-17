@@ -1,20 +1,20 @@
-# hipchat-bot
-A lightweight pluggable node hipchat bot.
+hipchat-bot
+===========
+> A lightweight pluggable node hipchat bot.
 
-Based heavily on [wobot](http://github.com/cjoudrey/wobot)
+## Install
 
-Github: [hipchat-bot](https://github.com/kingnebby/hipchat-bot)
+```js
+npm install hipchat-botty
+```
 
-# Usage
-
-`npm install hipchat-botty`
+## Usage
 
 If you run into errors you may need to install
 
  - libexpat1-dev: `apt-get install libexpat1-dev`
  - libicu-dev: `apt-get install libicu-dev`
 
-##Example
 
 ```javascript
 var Bot = require('hipchat-botty');
@@ -32,7 +32,7 @@ var b = new Bot(opts)
 
 // Loads some plugins from the src.
 // Create your own or contribute!
-var pathto = '../node_modules/hipchat-botty/examples/plugins/'
+var pathto = './node_modules/hipchat-botty/examples/plugins/'
 b.loadPlugin('chucky', require(pathto + 'chuckjokes'))
 b.loadPlugin('commands', require(pathto + 'loaded_plugins'))
 b.loadPlugin('man', require(pathto + 'manual'))
@@ -45,3 +45,11 @@ b.onMessage(/\!agree/, function(channel, from, message) {
 })
 
 ```
+
+## Contribute
+Dan Villa <dvilla@collineargroup.com>
+
+Based heavily on [wobot](http://github.com/cjoudrey/wobot)
+
+Github: [hipchat-bot](https://github.com/kingnebby/hipchat-bot)
+
