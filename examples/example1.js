@@ -15,7 +15,7 @@ var opts = {
 }
 
 var b = new Bot(opts)
-var pathTo = './examples/plugins/'
+var pathTo = './plugins/'
 
 b.loadPlugin('chucky', require(pathTo + 'chuckjokes'))
 b.loadPlugin('commands', require(pathTo + 'loaded_plugins'))

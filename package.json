@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "chuck-norris-api": "^1.0.6",
-    "node-xmpp-client": "^3.0.0"
+    "node-xmpp-client": "^3.0.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {},
   "scripts": {
