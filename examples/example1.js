@@ -20,6 +20,7 @@ var pathTo = './plugins/'
 b.loadPlugin('chucky', require(pathTo + 'chuckjokes'))
 b.loadPlugin('commands', require(pathTo + 'loaded_plugins'))
 b.loadPlugin('man', require(pathTo + 'manual'))
+b.loadPlugin('homer', require(pathTo + 'homer'))
 
 // Custom onMessage
 // b.onMessage(/regex-condition/, function(channel, from, message) {

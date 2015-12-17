@@ -1,6 +1,6 @@
 hipchat-bot
 ===========
-> A lightweight pluggable node hipchat bot.
+> A pluggable client-side hipchat bot.
 
 ## Install
 
