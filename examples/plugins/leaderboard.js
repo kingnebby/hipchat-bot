@@ -53,8 +53,7 @@ var onScore = function(channel, from, message) {
     var self = this
     var name = message.match(/([A-Za-z]+)\s*\+\+/)[1]
     if (self.leaderboard[name] === undefined) {
-      console.log('Could not find: ' + name);
-      return true
+      self.leaderboard[name] = 0
     }
     self.leaderboard[name] += 1
     var points = pluralize('point', self.leaderboard[name])

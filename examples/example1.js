@@ -17,16 +17,9 @@ var opts = {
 var b = new Bot(opts)
 var pathTo = './plugins/'
 
-b.loadPlugin('chucky', require(pathTo + 'chuckjokes'))
 b.loadPlugin('commands', require(pathTo + 'loaded_plugins'))
-b.loadPlugin('man', require(pathTo + 'manual'))
+b.loadPlugin('help', require(pathTo + 'help'))
+b.loadPlugin('leaderboard', require(pathTo + 'leaderboard'))
+b.loadPlugin('eightbot', require(pathTo + 'eightbot'))
 b.loadPlugin('homer', require(pathTo + 'homer'))
-
-// Custom onMessage
-// b.onMessage(/regex-condition/, function(channel, from, message) {
-b.onMessage(function(channel, from, message) {
-  var self = this
-
-  console.log(arguments);
-  self.message(channel, 'I totally agree.')
-})
+b.loadPlugin('boeing', require(pathTo + 'boeing'))
