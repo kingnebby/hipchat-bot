@@ -1,6 +1,6 @@
 {
   "name": "hipchat-botty",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A pluggable client-side hipchat bot.",
   "main": "lib/createBot.js",
   "directories": {
