@@ -35,7 +35,7 @@ var b = new Bot(opts)
 var pathto = './node_modules/hipchat-botty/examples/plugins/'
 b.loadPlugin('chucky', require(pathto + 'chuckjokes'))
 b.loadPlugin('commands', require(pathto + 'loaded_plugins'))
-b.loadPlugin('man', require(pathto + 'manual'))
+b.loadPlugin('help', require(pathto + 'help'))
 
 // Create your own listeners:
 b.onMessage(/\!agree/, function(channel, from, message) {
