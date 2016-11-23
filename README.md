@@ -47,6 +47,9 @@ b.onMessage(/\!agree/, function(channel, from, message) {
 ```
 
 ## Contribute
+
+See the readme in the examples dir for development details.
+
 Dan Villa <dvilla@collineargroup.com>
 
 Based heavily on [wobot](http://github.com/cjoudrey/wobot)
